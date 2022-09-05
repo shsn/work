@@ -10,7 +10,7 @@ hero_area:
     label : "contact me"
     link : "/contact"
 
-########################### Service ##############################
+########################### Focuses ##############################
 services:
 - title : "Brand Design"
   icon : "ti-ruler-pencil"
@@ -25,7 +25,7 @@ services:
   content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
 
-########################### Testimonial ###########################
+########################### Projects ###########################
 testimonial:
   enable : true
   title : "clients feedback"
