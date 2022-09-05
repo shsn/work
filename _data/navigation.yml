@@ -23,7 +23,7 @@ main:
   - name: Pages
     url: /
     submenu:
-      - name: Services
+      - name: Skills
         url: /services.html
       - name: Portfolio One
         url: /portfolio-1.html
