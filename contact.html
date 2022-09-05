@@ -1,38 +1,95 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; color: rgba(0, 0, 0, 0.85); -webkit-text-stroke: rgba(0, 0, 0, 0.85)}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; background-color: #b3b3b3}
-    span.s3 {font: 12.0px Times; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">--- layout: default header_image: "/assets/images/bg/bg-portfolio.jpg" title: "Contact Me” description: "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad minim veniam quis." --- {% include page_header.html %}</span></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Contact Information</b></span></h3>
-<p class="p3"><span class="s1">Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.mollit anim id est laborum. sed ut pers piciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo</span></p>
-<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Our Address</b></span></h4>
-<p class="p3"><span class="s1">624 W. University Dr. Suite #308, Denton, TX</span></p>
-<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Call Me</b></span></h4>
-<p class="p3"><span class="s1">(214) 245-0784<br>
-</span></p>
-<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Email Me</b></span></h4>
-<p class="p3"><span class="s1">work@nouri.cc<br>
-</span></p>
-<p class="p5"><span class="s1"></span><br></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Get In Touch</b></span></h3>
-<p class="p5"><span class="s1"></span><br></p>
-<p class="p5"><span class="s1"></span><br></p>
-<p class="p6"><span class="s2">Submit Message</span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1">{% include call_to_action.html %}</span></p>
-</body>
-</html>
+---
+layout: default
+header_image: "/assets/images/bg/bg-portfolio.jpg"
+title: "Contact Us"
+description: "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad
+minim veniam quis."
+---
+
+{% include page_header.html %}
+
+<section class="contact-form-wrap section">
+	<div class="container">
+		<div class="row justify-content-center align-items-center bg-gray">
+			<div class="col-lg-10">
+				<div class="contact-content pl-lg-5 mb-5 mb-lg-0">
+					<h3 class="mb-4 font-weight-bold">Contact Information</h3>
+					<p>Excepteur sint ocacat cupidatat non proi dent sunt in culpa qui officia deserunt.mollit anim id est
+						laborum. sed ut pers piciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+						totam rem aperiam eaque ipsa quae ab illo</p>
+
+					<div class="row mt-5">
+						<div class="col-lg-4">
+							<div class="contact-info mt-3">
+								<i class="ti-location-pin text-color"></i>
+								<div class="info">
+									<h4>Our Address</h4>
+									<p>92214-291, Avenida Emília Ferreira, 043 Vila Irene - MA</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="contact-info mt-3">
+								<i class="ti-mobile text-color"></i>
+								<div class="info">
+									<h4>Call Us</h4>
+									<p>(003) 104-6706-231 <br>(799) 376-4681-232</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="contact-info mt-3">
+								<i class="ti-email text-color"></i>
+								<div class="info">
+									<h4>Email Us</h4>
+									<p>info@dizer.com <br>info@example.com</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Map Start -->
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="google-map position-relative my-5">
+					<div id="map" data-latitude="51.507351" data-longitude="-0.127758" data-marker="{{'/assets/images/marker.png' | relative_url}}">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Map ENd -->
+
+		<div class="row justify-content-center">
+			<div class="col-lg-10 mt-4">
+				<div class="contact-form">
+					<h3 class="mb-4 font-weight-bold">Get In Touch</h3>
+					<form class="contact__form" method="post" action="{{site.contact_form_action}}">
+						<!-- form message -->
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<input class="form-control" type="text" name="name" id="name" placeholder="Name*">
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+									<input class="form-control" type="text" name="email" id="email" placeholder="Email*">
+								</div>
+							</div>
+							<div class="col-12">
+								<textarea class="form-control mt-3 mb-4" name="message" id="message" cols="30" rows="6"
+									placeholder="Message"></textarea>
+								<button type="submit" class="btn btn-primary" value="Submit Message"> Submit Message</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% include call_to_action.html %}
